@@ -196,6 +196,19 @@ function App() {
             clearCart={clearCart}
           />
         </section>
+        <section id="about" className="section">
+          <h2 className="section-title">About Us</h2>
+          <div className="about-content">
+            <p>
+              Opened in 2015, The Gilded Spoon is a sophisticated yet cozy neighborhood spot. 
+              We specialize in seasonal plates and NYC classics.
+            </p>
+            <p>
+              All our ingredients are sourced from local farms to ensure the highest 
+              quality for our guests.
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   );
