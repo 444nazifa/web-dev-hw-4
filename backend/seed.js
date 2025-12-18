@@ -1,7 +1,8 @@
+import "dotenv/config";
 import mongoose from "mongoose";
 import MenuItem from "./models/MenuItem.js";
 
-const mongoURI = "mongodb://127.0.0.1:27017/gilded_spoon";
+const mongoURI =  process.env.MONGO_URI;
 
 const seedItems = [
   { name: "Roasted Tomato Soup", price: 9.0, category: "Starters" },

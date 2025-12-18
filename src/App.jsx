@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import Cart from "./Cart";
 import "./App.css";
 
-const API = "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL;
 
 function App() {
   /* ---------------- MENU ---------------- */
